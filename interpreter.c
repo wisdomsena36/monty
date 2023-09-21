@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * `interpret` - Primary starting point for the program.
+ * interpret - Primary starting point for the program.
  * @ac: Argument count.
  * @av: Argument vector.
  * Returns: 1 on success, 0 on failure.

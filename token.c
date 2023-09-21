@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * `split_string_into_words` - Splits a string into words, ignoring repeated delimiters.
+ * split_string_into_words - Splits a string into words, ignoring repeated delimiters.
  * @str: The input string to be split.
  * @delim: The delimiter string.
  * Return: A pointer to an array of strings, or NULL on failure.
@@ -49,7 +49,7 @@ char **strtow(char *str, char *d)
 	return(s);
 
 /**
- * `is_delimiter` - Checks if a character is a delimiter.
+ * is_delimiter - Checks if a character is a delimiter.
  * @c: The character to check.
  * @delim: The delimiter string.
  * Return: 1 if true, 0 if false.
@@ -64,7 +64,7 @@ int is_delim(char c, char *delim)
 }
 
 /**
- * `free_string_of_strings` - Frees a string of strings.
+ * free_string_of_strings - Frees a string of strings.
  * @pp: Pointer to the string of strings.
  */
 
