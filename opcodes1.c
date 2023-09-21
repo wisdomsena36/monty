@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * `push_node_to_stack` - Pushes a node onto the stack.
+ * push_node_to_stack - Pushes a node onto the stack.
  * @stack: Pointer to pointer to the first node.
  * @n: Integer value to be added to the node.
  * Return: 1 if added, 0 otherwise.
@@ -25,7 +25,7 @@ void opcode_push(stack_t **stack, __attribute__((unused))unsigned int line_numbe
 }
 
 /**
- * `pop_node_from_stack` - Pops a node from the stack.
+ * pop_node_from_stack - Pops a node from the stack.
  * @stack: Pointer to pointer to the first node.
  * @n: Pointer to an integer to store the value from the popped node (unused).
  * Return: None.
@@ -42,7 +42,7 @@ void opcode_pop(stack_t **stack, __attribute__((unused))unsigned int line_number
 }
 
 /**
- * peek - 
+ * peek -
  * @stack: pointer to pointer to first node
  * @n: int value to be in added node
  * Return:
@@ -59,7 +59,7 @@ void opcode_pint(stack_t **stack, __attribute__((unused))unsigned int line_numbe
 }
 
 /**
- * `opcode_pall` - Prints all the values on the stack.
+ * opcode_pall - Prints all the values on the stack.
  * @stack: Pointer to pointer to the first node.
  * @n: Integer value (unused).
  * Return: None.
